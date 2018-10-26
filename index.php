@@ -5,10 +5,11 @@ if (!empty($_POST)): ?>
 <?php
 $record = R::dispense('parents');
 $record->name = htmlspecialchars($_POST["name"]);
-	$record->class = htmlspecialchars($_POST["class"]);
+$record->class = htmlspecialchars($_POST["class"]);
 $record->email = htmlspecialchars($_POST["email"]);
 $record->date = date('d-M-Y H:i:s');
 R::store($record);
+// print_r($record);
 $título = 'Registro a Congreso de Padres 2018';
 $mensaje = "<html>
 				<head>
@@ -56,7 +57,7 @@ print_r($mensaje);
 		</ul>
 		<div id="conf1" class="modal modal-fixed-footer">
 			<div class="modal-content">
-				<h4>Valores en los Milennials y Generación Z</h4>
+				<h4>LA FAMILIA Y SUS RETOS EN LA ERA DIGITAL</h4>
 				<p>Platica sobre valores en los millenials y zillenials o también llamada Generación Z, una generación que busca disfrutar de las cosas como viajar, ayudar a otros, y no busca acumular, si no compartir  (casa, coche, tiempo, dinero, lugar de trabajo, etc.)</p>
 				<img src="https://res.cloudinary.com/itesm-tam/image/upload/v1516737659/valores_kysqac.jpg" class="responsive-img">
 			</div>
@@ -226,7 +227,7 @@ print_r($mensaje);
 				</div>
 				<div class='white-text' style='margin-top:18em;background-color:rgba(0,0,0,.5);font-weight: 900'>
 					<h1 class='center'>CONGRESO PARA PADRES</h1>
-					<h5 class='center hide-on-med-and-down'>Valores, comunicación y comportamiento en las generaciones Millennial y Z</h5>
+					<h5 class='center hide-on-med-and-down'>LA FAMILIA Y SUS RETOS EN LA ERA DIGITAL</h5>
 				</div>
 			</div>
 		</section>
@@ -249,30 +250,30 @@ print_r($mensaje);
 						<td>Domo CCI</td>
 					</tr>
 					<tr>
-						<td>9:00 - 9:15</td>
+						<td>9:00 - 9:20</td>
 						<td>Bienvenida</td>
-						<td>Ing. Marco Vargas y Comité</td>
+						<td>Lic. María Adriana Garza<br>Ing. Marco Vargas</td>
 						<td>Auditorio Raul Aguilar</td>
 					</tr>
 					<tr>
 						<td>9:15 - 10:00</td>
-						<td><a class="modal-trigger" href="#conf1">Valores en los Milennials y Generación Z</a></td>
-						<td><a class="modal-trigger" href="#prof1">Lic. Ruben Nuñez</a> </td>
+						<td><a class="modal-trigger" href="#conf1">Conferencia I</a></td>
+						<td><a class="modal-trigger" href="#prof1">DR. JUAN DI CONSTANZO ZARAGOZA</a> </td>
 						<td>Auditorio Raul Aguilar</td>
 					</tr>
 					<tr>
 						<td>10:00 - 11:30</td>
-						<td><a class="modal-trigger" href="#taller1">Taller: Límites en los milennials</a></td>
-						<td><a class="modal-trigger" href="#prof2">Dr. Luisa Lemus</a> </td>
+						<td><a class="modal-trigger" href="#taller1">Taller I</a></td>
+						<td><a class="modal-trigger" href="#prof2">LIC. HERMILDA PATRICIA VÁZQUEZ DÍAZ</a> </td>
 						<td>Sale Empresarial 2</td>
 					</tr>
 					<tr>
 						<td>10:00 - 11:30</td>
-						<td><a class="modal-trigger" href="#taller2">Taller: Puentes de comunicación entre padres e hijos</a></td>
-						<td><a class="modal-trigger" href="#prof3">Lic. Silvia Eunice García</a></td>
+						<td><a class="modal-trigger" href="#taller2">Conferencia II</a></td>
+						<td><a class="modal-trigger" href="#prof3">LIC. ARTURO DAVID ARGENTE VILLARREAL</a></td>
 						<td>Lobby CCI</td>
 					</tr>
-					<tr>
+					<!-- <tr>
 						<td>10:00 - 11:30</td>
 						<td><a class="modal-trigger" href="#taller3">Taller: La fuerza de la voluntad y el éxito personal</a></td>
 						<td><a class="modal-trigger" href="#prof4">Lic. Ana Soledad</a></td>
@@ -295,24 +296,36 @@ print_r($mensaje);
 						<td>Conferencia: Los Dilemas morales en IGENS</td>
 						<td><a class="modal-trigger" href="#prof7">Dr.  Pablo Ayala Enríquez</a></td>
 						<td>Auditorio Raul Aguilar</td>
-					</tr>
+					</tr> -->
 					<tr>
-						<td>13:00 - 14:20</td>
+						<td>13:00 - 14:30</td>
 						<td>Comida</td>
 						<td>Stands, Grupos</td>
 						<td>Explanada CCI</td>
 					</tr>
 					<tr>
-						<td>14:40 - 16:40</td>
-						<td><a class="modal-trigger" href="#taller6">Taller: Ruler</a></td>
-						<td><a class="modal-trigger" href="#prof8">Ing. Ana Leticia Szymanski.</a></td>
+						<td>14:30 - 14:40</td>
+						<td><a class="modal-trigger" href="#taller6">Coach Dinámico</a></td>
+						<td><a class="modal-trigger" href="#prof8">COACH ELÍAS MIRANDA</a></td>
+						<td>Auditorio Raúl Aguilar</td>
+					</tr>
+					<tr>
+						<td>14:40 - 15:40</td>
+						<td><a class="modal-trigger" href="#taller6">Taller II</a></td>
+						<td><a class="modal-trigger" href="#prof8">DR. PABLO AYALA ENRÌQUEZ</a></td>
+						<td>Auditorio Raúl Aguilar</td>
+					</tr>
+					<tr>
+						<td>15:40 - 17:40</td>
+						<td><a class="modal-trigger" href="#taller6">Conferencia Final</a></td>
+						<td><a class="modal-trigger" href="#prof8">ING. PAULINO BERNOT SILIS </a></td>
 						<td>Auditorio Raúl Aguilar</td>
 					</tr>
 				</tbody>
 			</table>
 		</section>
 		<section id='con' class='scrollspy blue' style='margin-top: -2em'>
-			<h4 class='center white-text cyan' style='padding: 1em 0em 1em 0em'>Valores, comunicación y comportamiento en las generaciones Millenial y Z</h4>
+			<h4 class='center white-text cyan' style='padding: 1em 0em 1em 0em'>LA FAMILIA Y SUS RETOS EN LA ERA DIGITAL</h4>
 			<div class='row' style='padding: 1em 0em 1em 0em'>
 				<div class='col s12 m4 l4 center'>
 					<h5>8:30 a.m.</h5>
@@ -321,7 +334,7 @@ print_r($mensaje);
 					<h5>Tecnológico de Monterrey Tampico</h5>
 				</div>
 				<div class='col s12 m4 l4 center'>
-					<h5>10 Feb. 2018</h5>
+					<h5>9 Feb. 2019</h5>
 				</div>
 			</div>
 			<h5 class='left-align blue darken-4' style='padding: 1em 0em 1em 1em'>
