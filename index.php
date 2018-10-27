@@ -12,24 +12,24 @@ R::store($record);
 // print_r($record);
 $título = 'Registro a Congreso de Padres 2018';
 $mensaje = "<html>
-				<head>
-							<meta charset='utf-8'>
-							<meta name='viewport' content='width=device-width, initial-scale=1'>
-							<link rel='stylesheet' type='text/css' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css'>
-							<link rel='icon' href='https://pbs.twimg.com/profile_images/637400062243434496/vbLcnryf_400x400.png'>
-							<title>Congreso para Padres</title>
-					</head>
-				<body>
-						<div class='container'>
-								<div class='row'>
-											<div class='col m12 center'>
-													<h1>¡Hola {$record->name}!</h1>
-													<img src='https://res.cloudinary.com/itesm-tam/image/upload/v1515864337/congreso.jpg'>
-													<h3> Su registro ha sido completado con éxito, favor de presentar su boleto el día del evento</h3>
-											</div>
-								</div>
-						</div>
-				</body>
+							<head>
+													<meta charset='utf-8'>
+													<meta name='viewport' content='width=device-width, initial-scale=1'>
+													<link rel='stylesheet' type='text/css' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css'>
+													<link rel='icon' href='https://pbs.twimg.com/profile_images/637400062243434496/vbLcnryf_400x400.png'>
+													<title>Congreso para Padres</title>
+								</head>
+							<body>
+												<div class='container'>
+																	<div class='row'>
+																							<div class='col m12 center'>
+																												<h1>¡Hola {$record->name}!</h1>
+																												<img src='https://res.cloudinary.com/itesm-tam/image/upload/v1515864337/congreso.jpg'>
+																												<h3> Su registro ha sido completado con éxito, favor de presentar su boleto el día del evento</h3>
+																							</div>
+																	</div>
+												</div>
+							</body>
 </html>";
 print_r($mensaje);
 ?>
@@ -39,23 +39,12 @@ print_r($mensaje);
 	<head>
 		<meta charset='utf-8'>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-		<link rel='stylesheet' type='text/css' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css'>
+		<link rel='stylesheet' type='text/css' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css'>
 		<link rel='icon' href='https://pbs.twimg.com/profile_images/637400062243434496/vbLcnryf_400x400.png'>
 		<title>Congreso para Padres</title>
 	</head>
 	<body>
-		<ul id='slide-out' class='side-nav'>
-			<li><div class='user-view'>
-				<div class='background black'>
-				</div>
-				<a><span class='white-text email'>virginia.rdz@itesm.mx</span></a>
-			</div></li>
-			<li><a href='#inf' class='blue-text'>Información</a></li>
-			<li><a href='#con' class='blue-text'>Contacto</a></li>
-			<li><div class='divider'></div></li>
-			<li><a href='#reg' class='blue-text'>Registro</a></li>
-		</ul>
-		<div id="conf1" class="modal modal-fixed-footer">
+		<!-- <div id="conf1" class="modal modal-fixed-footer">
 			<div class="modal-content">
 				<h4>LA FAMILIA Y SUS RETOS EN LA ERA DIGITAL</h4>
 				<p>Platica sobre valores en los millenials y zillenials o también llamada Generación Z, una generación que busca disfrutar de las cosas como viajar, ayudar a otros, y no busca acumular, si no compartir  (casa, coche, tiempo, dinero, lugar de trabajo, etc.)</p>
@@ -64,8 +53,8 @@ print_r($mensaje);
 			<div class="modal-footer">
 				<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Cerrar</a>
 			</div>
-		</div>
-		<div id="prof1" class="modal">
+		</div> -->
+		<!-- <div id="prof1" class="modal">
 			<div class="modal-content center">
 				<h4>Lic. Rubén Nuñez</h4>
 				<p>Profesor de la Escuela de Negocios y Emprendimiento del Tecnológico de Monterrey. </p>
@@ -74,8 +63,8 @@ print_r($mensaje);
 			<div class="modal-footer">
 				<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
 			</div>
-		</div>
-		<div id="prof2" class="modal">
+		</div> -->
+		<!-- <div id="prof2" class="modal">
 			<div class="modal-content center">
 				<h4>Dra. Luisa Georgina Lemus.</h4>
 				<p>Doctora en Investigación Psicoanalítica. Maestría en Terapia Familiar.Licenciada en Psicología Social. </p>
@@ -84,8 +73,8 @@ print_r($mensaje);
 			<div class="modal-footer">
 				<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
 			</div>
-		</div>
-		<div id="prof3" class="modal">
+		</div> -->
+		<!-- <div id="prof3" class="modal">
 			<div class="modal-content center">
 				<h4>Lic. Silvia Eunice García.</h4>
 				<p>Directora del Centro de Neurodesarrollo y Apoyo a la Familia (CENYAF)</p>
@@ -94,8 +83,8 @@ print_r($mensaje);
 			<div class="modal-footer">
 				<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
 			</div>
-		</div>
-		<div id="prof4" class="modal">
+		</div> -->
+		<!-- <div id="prof4" class="modal">
 			<div class="modal-content center">
 				<h4>Lic. Ana Soledad Martínez.</h4>
 				<p>Directora del Centro de Idiomas y responsable del programa Pequeños empresarios en 2013 y 2015 en el Tecnológico de Monterrey.</p>
@@ -104,8 +93,8 @@ print_r($mensaje);
 			<div class="modal-footer">
 				<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
 			</div>
-		</div>
-		<div id="prof5" class="modal">
+		</div> -->
+		<!-- <div id="prof5" class="modal">
 			<div class="modal-content center">
 				<h4>Lic. Ana Paola Alcalá.</h4>
 				<p>Colaborador en STOOPEN EMA PARTNERS, México. Licenciada en mercadotecnia. Diplomado en comercio exterior. Mastering team management (coaching) Loreal, ITAM.</p>
@@ -114,8 +103,8 @@ print_r($mensaje);
 			<div class="modal-footer">
 				<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
 			</div>
-		</div>
-		<div id="prof6" class="modal">
+		</div> -->
+		<!-- <div id="prof6" class="modal">
 			<div class="modal-content center">
 				<h4>Lic. Gabriel Rubio.</h4>
 				<p>Conductor y editorialista en Televisa/Imagen Radio/MVS Radio/Grupo AS MILENIO. Presidente de la Asociación de padres de Familia de Cd. Madero Fundador Grupo Freedom.</p>
@@ -124,8 +113,8 @@ print_r($mensaje);
 			<div class="modal-footer">
 				<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
 			</div>
-		</div>
-		<div id="prof7" class="modal">
+		</div> -->
+		<!-- <div id="prof7" class="modal">
 			<div class="modal-content center">
 				<h4>Dr. Pablo Ayala Enriquez</h4>
 				<p>Director del Sentido Humano en el Tecnológico de Monterrey.</p>
@@ -134,8 +123,8 @@ print_r($mensaje);
 			<div class="modal-footer">
 				<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
 			</div>
-		</div>
-		<div id="prof8" class="modal">
+		</div> -->
+		<!-- <div id="prof8" class="modal">
 			<div class="modal-content center">
 				<h4>Ing. Ana Leticia Szymanski.</h4>
 				<p>Tutor 1er año en Tecnológico de Monterrey. Certificada en Inteligencia Emocional RULER, modelo del centro de IE de la universidad de Yale</p>
@@ -144,10 +133,8 @@ print_r($mensaje);
 			<div class="modal-footer">
 				<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
 			</div>
-		</div>
-		
-		
-		<div id="taller1" class="modal modal-fixed-footer">
+		</div> -->
+		<!-- <div id="taller1" class="modal modal-fixed-footer">
 			<div class="modal-content">
 				<h4>Límites en los Milennials y generación Z</h4>
 				<p>El taller está enfocado en orientar a los padres de familia de manera dinámica; el manejo de los límites en la vida de los milennials y la generación Z. Hay una diferencia enorme entre ver la tecnología cambiar el mundo y nacer en un mundo cambiado por la tecnología.</p>
@@ -206,7 +193,7 @@ print_r($mensaje);
 			<div class="modal-footer">
 				<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Cerrar</a>
 			</div>
-		</div>
+		</div> -->
 		<div class='navbar-fixed'>
 			<nav class='white'>
 				<div class='nav-wrapper'>
@@ -220,20 +207,29 @@ print_r($mensaje);
 				</div>
 			</nav>
 		</div>
+		<ul id='slide-out' class='sidenav'>
+			<li><div class='user-view'>
+				<div class='background black'>
+				</div>
+				<a><span class='white-text email'>virginia.rdz@itesm.mx</span></a>
+			</div></li>
+			<li><a href='#inf' class='blue-text'>Información</a></li>
+			<li><a href='#con' class='blue-text'>Contacto</a></li>
+			<li><div class='divider'></div></li>
+			<li><a href='#reg' class='blue-text'>Registro</a></li>
+		</ul>
 		<section id='inf' class='scrollspy'>
-			<div class='parallax-container'>
-				<div class='parallax'>
-					<img src='https://www.qu.edu/content/dam/parents/parents-promo-events-1200x664-jh2_9787.jpg'>
-				</div>
-				<div class='white-text' style='margin-top:18em;background-color:rgba(0,0,0,.5);font-weight: 900'>
-					<h1 class='center'>CONGRESO PARA PADRES</h1>
-					<h5 class='center hide-on-med-and-down'>LA FAMILIA Y SUS RETOS EN LA ERA DIGITAL</h5>
-				</div>
+			<div class="carousel carousel-slider">
+				<a class="carousel-item" href="#one!"><img src="https://res.cloudinary.com/itesm-tam/image/upload/c_scale,h_600/v1540597163/LtAyuvcM_jgynk8.jpg"></a>
+				<a class="carousel-item" href="#two!"><img src="https://res.cloudinary.com/itesm-tam/image/upload/c_scale,h_600/v1540597170/hDtGsH7U_hkjsca.jpg"></a>
+				<a class="carousel-item" href="#three!"><img src="https://res.cloudinary.com/itesm-tam/image/upload/c_scale,h_600/v1540597174/ucV75CBQ_hbzzof.jpg"></a>
+				<a class="carousel-item" href="#four!"><img src="https://res.cloudinary.com/itesm-tam/image/upload/c_scale,h_600/v1540597167/niFca2dc_rogoii.jpg"></a>
 			</div>
 		</section>
 		<section id='sch'>
+			<h3 class='center white-text cyan' style='padding: 1em 0em 1em 0em'>II CONGRESO <br> ESCUELA PARA PADRES</h3>
 			<h4 class='center'>Agenda General de Evento</h4>
-			<table>
+			<table style="text-transform:uppercase!important">
 				<thead class='responsive-table'>
 					<tr>
 						<th>Hora</th>
@@ -257,46 +253,22 @@ print_r($mensaje);
 					</tr>
 					<tr>
 						<td>9:15 - 10:00</td>
-						<td><a class="modal-trigger" href="#conf1">Conferencia I</a></td>
-						<td><a class="modal-trigger" href="#prof1">DR. JUAN DI CONSTANZO ZARAGOZA</a> </td>
+						<td>Conferencia I</td>
+						<td>DR. JUAN DI CONSTANZO ZARAGOZA </td>
 						<td>Auditorio Raul Aguilar</td>
 					</tr>
 					<tr>
 						<td>10:00 - 11:30</td>
-						<td><a class="modal-trigger" href="#taller1">Taller I</a></td>
-						<td><a class="modal-trigger" href="#prof2">LIC. HERMILDA PATRICIA VÁZQUEZ DÍAZ</a> </td>
+						<td>Taller I</td>
+						<td>LIC. HERMILDA PATRICIA VÁZQUEZ DÍAZ </td>
 						<td>Sale Empresarial 2</td>
 					</tr>
 					<tr>
 						<td>10:00 - 11:30</td>
-						<td><a class="modal-trigger" href="#taller2">Conferencia II</a></td>
-						<td><a class="modal-trigger" href="#prof3">LIC. ARTURO DAVID ARGENTE VILLARREAL</a></td>
+						<td>Conferencia II</td>
+						<td>LIC. ARTURO DAVID ARGENTE VILLARREAL</td>
 						<td>Lobby CCI</td>
 					</tr>
-					<!-- <tr>
-						<td>10:00 - 11:30</td>
-						<td><a class="modal-trigger" href="#taller3">Taller: La fuerza de la voluntad y el éxito personal</a></td>
-						<td><a class="modal-trigger" href="#prof4">Lic. Ana Soledad</a></td>
-						<td>Sala Ejecutiva 2</td>
-					</tr>
-					<tr>
-						<td>10:00 - 11:30</td>
-						<td><a class="modal-trigger" href="#taller4">Taller: El manejo de la comunicación con asertividad en los milennials</a></td>
-						<td><a class="modal-trigger" href="#prof5">Lic. Ana Paola Alcalá Carrillo</a></td>
-						<td>Sala Empresarial 1</td>
-					</tr>
-					<tr>
-						<td>10:00 - 11:30</td>
-						<td><a class="modal-trigger" href="#taller5">Taller: Evaluación de la funcionalidad familiar</a></td>
-						<td><a class="modal-trigger" href="#prof6">Lic. Gabriel Rubio Badillo</a></td>
-						<td>Learnning Commons</td>
-					</tr>
-					<tr>
-						<td>11:30 - 13:00</td>
-						<td>Conferencia: Los Dilemas morales en IGENS</td>
-						<td><a class="modal-trigger" href="#prof7">Dr.  Pablo Ayala Enríquez</a></td>
-						<td>Auditorio Raul Aguilar</td>
-					</tr> -->
 					<tr>
 						<td>13:00 - 14:30</td>
 						<td>Comida</td>
@@ -305,20 +277,20 @@ print_r($mensaje);
 					</tr>
 					<tr>
 						<td>14:30 - 14:40</td>
-						<td><a class="modal-trigger" href="#taller6">Coach Dinámico</a></td>
-						<td><a class="modal-trigger" href="#prof8">COACH ELÍAS MIRANDA</a></td>
+						<td>Coach Dinámico</td>
+						<td>COACH ELÍAS MIRANDA</td>
 						<td>Auditorio Raúl Aguilar</td>
 					</tr>
 					<tr>
 						<td>14:40 - 15:40</td>
-						<td><a class="modal-trigger" href="#taller6">Taller II</a></td>
-						<td><a class="modal-trigger" href="#prof8">DR. PABLO AYALA ENRÌQUEZ</a></td>
+						<td>Taller II</td>
+						<td>DR. PABLO AYALA ENRÌQUEZ</td>
 						<td>Auditorio Raúl Aguilar</td>
 					</tr>
 					<tr>
 						<td>15:40 - 17:40</td>
-						<td><a class="modal-trigger" href="#taller6">Conferencia Final</a></td>
-						<td><a class="modal-trigger" href="#prof8">ING. PAULINO BERNOT SILIS </a></td>
+						<td>Conferencia Final</td>
+						<td>ING. PAULINO BERNOT SILIS </td>
 						<td>Auditorio Raúl Aguilar</td>
 					</tr>
 				</tbody>
@@ -332,76 +304,52 @@ print_r($mensaje);
 				</div>
 				<div class='col s12 m4 l4 center'>
 					<h5>Tecnológico de Monterrey Tampico</h5>
+					<small>Duela del Gimnasio H.H. Jack Fleishman, en el edificio CCD</small>
 				</div>
 				<div class='col s12 m4 l4 center'>
 					<h5>9 Feb. 2019</h5>
 				</div>
 			</div>
-			<h5 class='left-align blue darken-4' style='padding: 1em 0em 1em 1em'>
-			<b class='cyan-text'>Informes:</b>
-			<br>
-			<a href='mailto:virginia.rdz@itesm.mx' class='white-text'>virginia.rdz@itesm.mx</a>
-			<br>
-			<a href='mailto:dalma.leon@hotmail.com' class='white-text'>dalma.leon@hotmail.com</a>
-			<br>
-			<a href='bcu.cristina@hotmail.com' class='white-text'>bcu.cristina@hotmail.com</a>
-			<br>
-			Tel: 229160 ext. 2806
-			</h5>
+			<div class="row center blue darken-4">
+				<h5 class='left-align ' style='padding: 1em 0em 1em 1em'>
+				<b class='cyan-text'>Informes:</b>
+				<br>
+				<a href='mailto:virginia.rdz@itesm.mx' class='white-text'>virginia.rdz@itesm.mx</a>
+				<br>
+				<a href='mailto:dalma.leon@hotmail.com' class='white-text'>dalma.leon@hotmail.com</a>
+				<br>
+				<a href='bcu.cristina@hotmail.com' class='white-text'>bcu.cristina@hotmail.com</a>
+				<br>
+				Tel: 229160 ext. 2806
+				</h5>
+			</div>
 			
 		</section>
 		<section id='reg' class='scrollspy'>
 			<div class='container'>
 				<div class='row'>
-					<form class='col s12' action=<?php echo htmlspecialchars($_SERVER["PHP_SELF"])?> method='POST'>
-						<h4 class='center'>Registro</h4>
-						<div class='row'>
-							<div class='input-field col s12 l6'>
-								<input id='name' name='name' type='text' class='validate' max='100' require>
-								<label for='name'>Nombre</label>
-							</div>
-							<div class='input-field col s12 l6'>
-								<input id='email' name='email' type='email' class='validate' max='50' required>
-								<label for='email'>Email</label>
-							</div>
-							<div class='input-field col s12 l6'>
-								<select name='class'>
-									<option value='' disabled selected>Seleccionar Taller</option>
-									<option value='1'>Límites en los milennials</option>
-									<option value='2'>Puentes de comunicación entre padres e hijos</option>
-									<option value='3'>La fuerza de la voluntad y el éxito personal</option>
-									<option value='4'>Comunicación con asertividad en los milennials</option>
-									<option value='5'>Evaluación de la funcionalidad familiar</option>
-								</select>
-							</div>
-							<div class="input-field col s12 l6 file-field">
-								<div class="btn cyan">
-									<span>Comprobante</span>
-									<input type="file" required>
-								</div>
-								<div class="file-path-wrapper">
-									<input class="file-path validate" type="text">
-								</div>
-							</div>
+					<div class="col s12">
+						<div class="card-panel blue darken-4">
+							<h1 class="center" style="margin-top:-25px;margin-bottom:0px">REGISTRO</h1>
+							<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc1XNRyqCVq8YD92WHfFqCL5OB8YrjYsmE6u7dYPVTOlSFs4A/viewform" width="100%" border="0" height="400px"></iframe>
 						</div>
-						<div class='row'>
-							<div class='right'>
-								<button type='submit' class='waves-effect waves-light btn cyan'>Enviar</button>
-							</div>
-						</div>
-					</form>
+					</div>
 				</div>
 			</div>
 		</section>
 		<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
-		<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js'></script>
+		<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js'></script>
 		<script type='text/javascript'>
 			$(document).ready(function(){
 				$('.scrollspy').scrollSpy();
 				$('.parallax').parallax();
-				$('.button-collapse').sideNav();
-				$('select').material_select();
+				$('.sidenav').sidenav();
+				$('select').formSelect();
 				$('.modal').modal();
+				$('.carousel.carousel-slider').carousel({
+					fullWidth: true,
+					indicators: true
+				});
 			});
 		</script>
 	</body>
