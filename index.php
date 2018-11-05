@@ -12,24 +12,24 @@ R::store($record);
 // print_r($record);
 $título = 'Registro a Congreso de Padres 2018';
 $mensaje = "<html>
-							<head>
-													<meta charset='utf-8'>
-													<meta name='viewport' content='width=device-width, initial-scale=1'>
-													<link rel='stylesheet' type='text/css' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css'>
-													<link rel='icon' href='https://pbs.twimg.com/profile_images/637400062243434496/vbLcnryf_400x400.png'>
-													<title>Congreso para Padres</title>
-								</head>
-							<body>
-												<div class='container'>
-																	<div class='row'>
-																							<div class='col m12 center'>
-																												<h1>¡Hola {$record->name}!</h1>
-																												<img src='https://res.cloudinary.com/itesm-tam/image/upload/v1515864337/congreso.jpg'>
-																												<h3> Su registro ha sido completado con éxito, favor de presentar su boleto el día del evento</h3>
-																							</div>
-																	</div>
-												</div>
-							</body>
+								<head>
+															<meta charset='utf-8'>
+															<meta name='viewport' content='width=device-width, initial-scale=1'>
+															<link rel='stylesheet' type='text/css' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css'>
+															<link rel='icon' href='https://pbs.twimg.com/profile_images/637400062243434496/vbLcnryf_400x400.png'>
+															<title>Congreso para Padres</title>
+									</head>
+								<body>
+														<div class='container'>
+																				<div class='row'>
+																											<div class='col m12 center'>
+																																	<h1>¡Hola {$record->name}!</h1>
+																																	<img src='https://res.cloudinary.com/itesm-tam/image/upload/v1515864337/congreso.jpg'>
+																																	<h3> Su registro ha sido completado con éxito, favor de presentar su boleto el día del evento</h3>
+																											</div>
+																				</div>
+														</div>
+								</body>
 </html>";
 print_r($mensaje);
 ?>
@@ -48,7 +48,7 @@ print_r($mensaje);
 			<div class="modal-content center">
 				<h4>Dr. Juan Di Costanzo Zaragoza</h4>
 				<p>Director de División de Posgrado y Extensión Académica Campus Tampico</p>
-				<img src="" class="responsive-img">
+				<img src="https://scontent.fntr4-1.fna.fbcdn.net/v/t1.0-9/45204931_2007215896005994_4492301363711049728_n.png?_nc_cat=106&_nc_ht=scontent.fntr4-1.fna&oh=baf489ebc1cde7975cf39a2180f7bc61&oe=5C4464C7" class="responsive-img">
 			</div>
 			<div class="modal-footer">
 				<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
@@ -58,7 +58,7 @@ print_r($mensaje);
 			<div class="modal-content center">
 				<h4>Lic. Patricia Vázquez Díaz</h4>
 				<p>Departamento de Bienestar y Consejería Liderazgo y Formación Estudiantil Campus Ciudad de México</p>
-				<img src="" class="responsive-img">
+				<img src="https://scontent.fntr4-1.fna.fbcdn.net/v/t1.0-9/45064101_2007216052672645_5963173310056366080_n.png?_nc_cat=108&_nc_ht=scontent.fntr4-1.fna&oh=1017663e2e0901f787dd30df261ea1df&oe=5C7943B3" class="responsive-img">
 			</div>
 			<div class="modal-footer">
 				<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
@@ -68,7 +68,7 @@ print_r($mensaje);
 			<div class="modal-content center">
 				<h4>Lic. Arturo David Argente Villarreal</h4>
 				<p>Director Asociado de Escuela de Ciencias Sociales y Gobierno Campus Ciudad de México</p>
-				<img src="" class="responsive-img">
+				<img src="https://scontent.fntr4-1.fna.fbcdn.net/v/t1.0-9/45068922_2007215916005992_7720830431892865024_n.jpg?_nc_cat=101&_nc_ht=scontent.fntr4-1.fna&oh=521a6e4cdeef18e972b382f3d28185ba&oe=5C844A7F" class="responsive-img">
 			</div>
 			<div class="modal-footer">
 				<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
@@ -78,7 +78,7 @@ print_r($mensaje);
 			<div class="modal-content center">
 				<h4>Lic. Paulino Bernot Silis</h4>
 				<p>Decano de Preparatoria Sistema Tecnológico de Monterrey.</p>
-				<img src="" class="responsive-img">
+				<img src="https://scontent.fntr4-1.fna.fbcdn.net/v/t1.0-9/45011786_2007216042672646_921654180190355456_n.png?_nc_cat=102&_nc_ht=scontent.fntr4-1.fna&oh=def081848b97125b9cabbee9f9cbb231&oe=5C7D7ABA" class="responsive-img">
 			</div>
 			<div class="modal-footer">
 				<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
@@ -108,7 +108,7 @@ print_r($mensaje);
 			<div class="modal-content center">
 				<h4>Dr. Pablo Ayala Enriquez</h4>
 				<p>Director del Sentido Humano en el Tecnológico de Monterrey.</p>
-				<img src="https://res.cloudinary.com/itesm-tam/image/upload/v1516737068/7.pabloayala_axsxq8.jpg" class="responsive-img">
+				<img src="https://scontent.fntr4-1.fna.fbcdn.net/v/t1.0-9/43590288_2007216066005977_7306804762903576576_n.png?_nc_cat=111&_nc_ht=scontent.fntr4-1.fna&oh=ac28ac91c1e7c033e74b05ee770e2d24&oe=5C818676" class="responsive-img">
 			</div>
 			<div class="modal-footer">
 				<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
@@ -127,7 +127,7 @@ print_r($mensaje);
 		<div class='navbar-fixed'>
 			<nav class='white'>
 				<div class='nav-wrapper'>
-					<a href='#' class='brand-logo button-collapse' data-activates='slide-out'><img src='https://pbs.twimg.com/profile_images/637400062243434496/vbLcnryf_400x400.png' class='z-depth-1' style='max-width:100px'></a>
+					<a href='#' class='brand-logo button-collapse' data-activates='slide-out'><img src='https://pbs.twimg.com/profile_images/637400062243434496/vbLcnryf_400x400.png' class='z-depth-1' style='max-width:100px'><img src="https://res.cloudinary.com/itesm-tam/image/upload/v1540849310/logo.png" class="z-depth-1 white" style='max-width:100px'></a>
 					<ul id='nav-mobile' class='right hide-on-med-and-down'>
 						<li><a href='#inf' class='blue-text'>Información</a></li>
 						<li><a href='#sch' class='blue-text'>Programa</a></li>
@@ -149,7 +149,10 @@ print_r($mensaje);
 			<li><a href='#reg' class='blue-text'>Registro</a></li>
 		</ul>
 		<section id='inf' class='scrollspy'>
-			<div class="carousel carousel-slider">
+			<div class="carousel carousel-slider center">
+				<div class="carousel-fixed-item center">
+					<h1 class='center white-text' style='padding: 0em 0em 8em 0em'><b>II CONGRESO<br> ESCUELA PARA PADRES</b></h1>
+				</div>
 				<a class="carousel-item"><img src="https://res.cloudinary.com/itesm-tam/image/upload/c_scale,h_800/v1540597172/7TcHloEk_yywvqu.jpg"></a>
 				<a class="carousel-item"><img src="https://res.cloudinary.com/itesm-tam/image/upload/c_scale,h_800/v1540597170/hDtGsH7U_hkjsca.jpg"></a>
 				<a class="carousel-item"><img src="https://res.cloudinary.com/itesm-tam/image/upload/c_scale,h_800/v1540597163/LtAyuvcM_jgynk8.jpg"></a>
@@ -158,9 +161,10 @@ print_r($mensaje);
 				<a class="carousel-item"><img src="https://res.cloudinary.com/itesm-tam/image/upload/c_scale,h_800/v1540597169/XY_vXC4E_er226i.jpg"></a>
 			</div>
 		</section>
-		<section id='sch' style="margin-top:-30px">
-			<h3 class='center white-text cyan' style='padding: 1em 0em 1em 0em'><b>II CONGRESO</b><br> ESCUELA PARA PADRES <br>
-			<small class="center black-text" style="font-size:1rem">Reforzar los valores familiares ante los desafíos tecnológicos en la Era Digital, proporcionando herramientas efectivas para construir canales de comunicación entre padres e hijos y su entorno.</small></h3>
+		<section id='sch'>
+			<div class="col m-10">
+				<h5 class="center cyan-text" style='padding: 0em 0em 1em 0em'>Reforzar los valores familiares ante los desafíos tecnológicos en la Era Digital, proporcionando herramientas efectivas para construir canales de comunicación entre padres e hijos y su entorno.</h5>
+			</div>
 			<h4 class='center'>Agenda General de Evento</h4>
 			<table style="text-transform:uppercase!important">
 				<thead class='responsive-table'>
@@ -284,7 +288,10 @@ print_r($mensaje);
 					fullWidth: true,
 					indicators: true
 				});
-			});
+				var autoplay = true;
+				setInterval(function() { if(autoplay) $('.carousel.carousel-slider').carousel('next'); }, 4500);
+				$('.carousel.carousel-slider').hover(function(){ autoplay = false; },function(){ autoplay = true; });
+				});
 		</script>
 	</body>
 </html>
