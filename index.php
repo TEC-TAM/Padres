@@ -44,77 +44,67 @@ print_r($mensaje);
 		<title>Congreso para Padres</title>
 	</head>
 	<body>
-		<!-- <div id="conf1" class="modal modal-fixed-footer">
-			<div class="modal-content">
-				<h4>LA FAMILIA Y SUS RETOS EN LA ERA DIGITAL</h4>
-				<p>Platica sobre valores en los millenials y zillenials o también llamada Generación Z, una generación que busca disfrutar de las cosas como viajar, ayudar a otros, y no busca acumular, si no compartir  (casa, coche, tiempo, dinero, lugar de trabajo, etc.)</p>
-				<img src="https://res.cloudinary.com/itesm-tam/image/upload/v1516737659/valores_kysqac.jpg" class="responsive-img">
-			</div>
-			<div class="modal-footer">
-				<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Cerrar</a>
-			</div>
-		</div> -->
-		<!-- <div id="prof1" class="modal">
+		<div id="prof1" class="modal">
 			<div class="modal-content center">
-				<h4>Lic. Rubén Nuñez</h4>
-				<p>Profesor de la Escuela de Negocios y Emprendimiento del Tecnológico de Monterrey. </p>
-				<img src="https://res.cloudinary.com/itesm-tam/image/upload/v1516737067/1.ruben.nunez_itfkfh.jpg" class="responsive-img">
+				<h4>Dr. Juan Di Costanzo Zaragoza</h4>
+				<p>Director de División de Posgrado y Extensión Académica Campus Tampico</p>
+				<img src="" class="responsive-img">
 			</div>
 			<div class="modal-footer">
 				<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
 			</div>
-		</div> -->
-		<!-- <div id="prof2" class="modal">
+		</div>
+		<div id="prof2" class="modal">
 			<div class="modal-content center">
-				<h4>Dra. Luisa Georgina Lemus.</h4>
-				<p>Doctora en Investigación Psicoanalítica. Maestría en Terapia Familiar.Licenciada en Psicología Social. </p>
-				<img src="https://res.cloudinary.com/itesm-tam/image/upload/v1516737067/2.luisageorgina_wch0rl.jpg" class="responsive-img">
+				<h4>Lic. Patricia Vázquez Díaz</h4>
+				<p>Departamento de Bienestar y Consejería Liderazgo y Formación Estudiantil Campus Ciudad de México</p>
+				<img src="" class="responsive-img">
 			</div>
 			<div class="modal-footer">
 				<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
 			</div>
-		</div> -->
-		<!-- <div id="prof3" class="modal">
+		</div>
+		<div id="prof3" class="modal">
 			<div class="modal-content center">
-				<h4>Lic. Silvia Eunice García.</h4>
-				<p>Directora del Centro de Neurodesarrollo y Apoyo a la Familia (CENYAF)</p>
-				<img src="https://res.cloudinary.com/itesm-tam/image/upload/v1516737067/3.silviaeunice_zlorqd.jpg" class="responsive-img">
+				<h4>Lic. Arturo David Argente Villarreal</h4>
+				<p>Director Asociado de Escuela de Ciencias Sociales y Gobierno Campus Ciudad de México</p>
+				<img src="" class="responsive-img">
 			</div>
 			<div class="modal-footer">
 				<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
 			</div>
-		</div> -->
-		<!-- <div id="prof4" class="modal">
+		</div>
+		<div id="prof4" class="modal">
 			<div class="modal-content center">
-				<h4>Lic. Ana Soledad Martínez.</h4>
-				<p>Directora del Centro de Idiomas y responsable del programa Pequeños empresarios en 2013 y 2015 en el Tecnológico de Monterrey.</p>
-				<img src="https://res.cloudinary.com/itesm-tam/image/upload/v1516737067/4.anasoledad_kn9wrm.jpg" class="responsive-img">
+				<h4>Lic. Paulino Bernot Silis</h4>
+				<p>Decano de Preparatoria Sistema Tecnológico de Monterrey.</p>
+				<img src="" class="responsive-img">
 			</div>
 			<div class="modal-footer">
 				<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
 			</div>
-		</div> -->
-		<!-- <div id="prof5" class="modal">
+		</div>
+		<div id="prof5" class="modal">
 			<div class="modal-content center">
 				<h4>Lic. Ana Paola Alcalá.</h4>
 				<p>Colaborador en STOOPEN EMA PARTNERS, México. Licenciada en mercadotecnia. Diplomado en comercio exterior. Mastering team management (coaching) Loreal, ITAM.</p>
-				<img src="https://res.cloudinary.com/itesm-tam/image/upload/v1516737067/5.anapaola_aiuurm.jpg" class="responsive-img">
+				<img src="" class="responsive-img">
 			</div>
 			<div class="modal-footer">
 				<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
 			</div>
-		</div> -->
-		<!-- <div id="prof6" class="modal">
+		</div>
+		<div id="prof6" class="modal">
 			<div class="modal-content center">
 				<h4>Lic. Gabriel Rubio.</h4>
 				<p>Conductor y editorialista en Televisa/Imagen Radio/MVS Radio/Grupo AS MILENIO. Presidente de la Asociación de padres de Familia de Cd. Madero Fundador Grupo Freedom.</p>
-				<img src="https://res.cloudinary.com/itesm-tam/image/upload/v1516737067/6.gabrielrubio_mztpcn.jpg" class="responsive-img">
+				<img src="" class="responsive-img">
 			</div>
 			<div class="modal-footer">
 				<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
 			</div>
-		</div> -->
-		<!-- <div id="prof7" class="modal">
+		</div>
+		<div id="prof7" class="modal">
 			<div class="modal-content center">
 				<h4>Dr. Pablo Ayala Enriquez</h4>
 				<p>Director del Sentido Humano en el Tecnológico de Monterrey.</p>
@@ -123,77 +113,17 @@ print_r($mensaje);
 			<div class="modal-footer">
 				<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
 			</div>
-		</div> -->
-		<!-- <div id="prof8" class="modal">
+		</div>
+		<div id="prof8" class="modal">
 			<div class="modal-content center">
 				<h4>Ing. Ana Leticia Szymanski.</h4>
 				<p>Tutor 1er año en Tecnológico de Monterrey. Certificada en Inteligencia Emocional RULER, modelo del centro de IE de la universidad de Yale</p>
-				<img src="https://res.cloudinary.com/itesm-tam/image/upload/v1516737068/8.AnaLeticia_rdxorh.jpg" class="responsive-img">
+				<img src="" class="responsive-img">
 			</div>
 			<div class="modal-footer">
 				<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
 			</div>
-		</div> -->
-		<!-- <div id="taller1" class="modal modal-fixed-footer">
-			<div class="modal-content">
-				<h4>Límites en los Milennials y generación Z</h4>
-				<p>El taller está enfocado en orientar a los padres de familia de manera dinámica; el manejo de los límites en la vida de los milennials y la generación Z. Hay una diferencia enorme entre ver la tecnología cambiar el mundo y nacer en un mundo cambiado por la tecnología.</p>
-				<img src="https://res.cloudinary.com/itesm-tam/image/upload/v1516669484/1.Limites_fdqwmz.jpg" class="responsive-img">
-			</div>
-			<div class="modal-footer">
-				<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Cerrar</a>
-			</div>
 		</div>
-		<div id="taller2" class="modal modal-fixed-footer">
-			<div class="modal-content">
-				<h4>Haciendo puentes de comunicación entre padres e hijos</h4>
-				<p>El tiempo proporcionado a nuestros hijos es invaluable y encontrar la forma y los espacios para acercarnos y comunicarnos con ellos es sin duda una problemática que a muchos padres se nos presenta; de manera dinámica el taller nos proporcionará las estrategias para hacerlo.</p>
-				<img src="https://res.cloudinary.com/itesm-tam/image/upload/v1516669484/2.Puentes_agwn8p.jpg" class="responsive-img">
-			</div>
-			<div class="modal-footer">
-				<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Cerrar</a>
-			</div>
-		</div>
-		<div id="taller3" class="modal modal-fixed-footer">
-			<div class="modal-content">
-				<h4>La fuerza de voluntad y el éxito personal.</h4>
-				<p>Es un taller enfocado en reflexionar sobre como la fuerza de voluntad, vista como la capacidad que tenemos de controlar la atención, las emociones y los deseos influyen en la salud física, estabilidad emocional y por consiguiente en el éxito personal.</p>
-				<img src="https://res.cloudinary.com/itesm-tam/image/upload/v1516669486/3._Fuerza_Voluntad_tgerub.jpg" class="responsive-img">
-			</div>
-			<div class="modal-footer">
-				<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Cerrar</a>
-			</div>
-		</div>
-		<div id="taller4" class="modal modal-fixed-footer">
-			<div class="modal-content">
-				<h4>El manejo de la comunicación con asertividad en los milennials y generación Z.</h4>
-				<p>En este taller se desarrolla de manera dinámica el cómo manejar de manera efectiva comunicación a todos los niveles, enfocado a los papás de jóvenes, formados con constante evolución, cuidando el manejo de los cambios buscando resultados íntegros con facilidad de adaptación.</p>
-				<img src="https://res.cloudinary.com/itesm-tam/image/upload/v1516669484/4._asertividad_qsw1l9.jpg" class="responsive-img">
-			</div>
-			<div class="modal-footer">
-				<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Cerrar</a>
-			</div>
-		</div>
-		<div id="taller5" class="modal modal-fixed-footer">
-			<div class="modal-content">
-				<h4>Evaluación de la funcionalidad familiar.</h4>
-				<p>Es un taller en el cual de manera dinámica, nos orienta a manejar de manera efectiva nuestra funcionalidad en la familia, y así comprender a las nuevas generaciones.</p>
-				<img src="https://res.cloudinary.com/itesm-tam/image/upload/v1516669484/5.funcionalidad_yfzca1.jpg" class="responsive-img">
-			</div>
-			<div class="modal-footer">
-				<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Cerrar</a>
-			</div>
-		</div>
-		<div id="taller6" class="modal modal-fixed-footer">
-			<div class="modal-content">
-				<h4>Taller: Ruller</h4>
-				<p>Las emociones importan porque impulsan el aprendizaje, la toma de decisiones, la creatividad, las relaciones y la salud. En este taller aprenderás a identificar las emociones, sacar provechos de esas emociones.</p>
-				<img src="https://res.cloudinary.com/itesm-tam/image/upload/v1516737068/RULER_fz3p6l.jpg" class="responsive-img">
-			</div>
-			<div class="modal-footer">
-				<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Cerrar</a>
-			</div>
-		</div> -->
 		<div class='navbar-fixed'>
 			<nav class='white'>
 				<div class='nav-wrapper'>
@@ -211,7 +141,7 @@ print_r($mensaje);
 			<li><div class='user-view'>
 				<div class='background black'>
 				</div>
-				<a><span class='white-text email'>virginia.rdz@itesm.mx</span></a>
+				<a><span class='white-text email'>adriwm69@hotmail.com y rosssalba@hotmail.com</span></a>
 			</div></li>
 			<li><a href='#inf' class='blue-text'>Información</a></li>
 			<li><a href='#con' class='blue-text'>Contacto</a></li>
@@ -220,14 +150,17 @@ print_r($mensaje);
 		</ul>
 		<section id='inf' class='scrollspy'>
 			<div class="carousel carousel-slider">
-				<a class="carousel-item" href="#one!"><img src="https://res.cloudinary.com/itesm-tam/image/upload/c_scale,h_600/v1540597163/LtAyuvcM_jgynk8.jpg"></a>
-				<a class="carousel-item" href="#two!"><img src="https://res.cloudinary.com/itesm-tam/image/upload/c_scale,h_600/v1540597170/hDtGsH7U_hkjsca.jpg"></a>
-				<a class="carousel-item" href="#three!"><img src="https://res.cloudinary.com/itesm-tam/image/upload/c_scale,h_600/v1540597174/ucV75CBQ_hbzzof.jpg"></a>
-				<a class="carousel-item" href="#four!"><img src="https://res.cloudinary.com/itesm-tam/image/upload/c_scale,h_600/v1540597167/niFca2dc_rogoii.jpg"></a>
+				<a class="carousel-item"><img src="https://res.cloudinary.com/itesm-tam/image/upload/c_scale,h_800/v1540597172/7TcHloEk_yywvqu.jpg"></a>
+				<a class="carousel-item"><img src="https://res.cloudinary.com/itesm-tam/image/upload/c_scale,h_800/v1540597170/hDtGsH7U_hkjsca.jpg"></a>
+				<a class="carousel-item"><img src="https://res.cloudinary.com/itesm-tam/image/upload/c_scale,h_800/v1540597163/LtAyuvcM_jgynk8.jpg"></a>
+				<a class="carousel-item"><img src="https://res.cloudinary.com/itesm-tam/image/upload/c_scale,h_800/v1540597167/niFca2dc_rogoii.jpg"></a>
+				<a class="carousel-item"><img src="https://res.cloudinary.com/itesm-tam/image/upload/c_scale,h_800/v1540597174/ucV75CBQ_hbzzof.jpg"></a>
+				<a class="carousel-item"><img src="https://res.cloudinary.com/itesm-tam/image/upload/c_scale,h_800/v1540597169/XY_vXC4E_er226i.jpg"></a>
 			</div>
 		</section>
-		<section id='sch'>
-			<h3 class='center white-text cyan' style='padding: 1em 0em 1em 0em'>II CONGRESO <br> ESCUELA PARA PADRES</h3>
+		<section id='sch' style="margin-top:-30px">
+			<h3 class='center white-text cyan' style='padding: 1em 0em 1em 0em'><b>II CONGRESO</b><br> ESCUELA PARA PADRES <br>
+			<small class="center black-text" style="font-size:1rem">Reforzar los valores familiares ante los desafíos tecnológicos en la Era Digital, proporcionando herramientas efectivas para construir canales de comunicación entre padres e hijos y su entorno.</small></h3>
 			<h4 class='center'>Agenda General de Evento</h4>
 			<table style="text-transform:uppercase!important">
 				<thead class='responsive-table'>
@@ -254,19 +187,19 @@ print_r($mensaje);
 					<tr>
 						<td>9:15 - 10:00</td>
 						<td>Conferencia I</td>
-						<td>DR. JUAN DI CONSTANZO ZARAGOZA </td>
+						<td><a class="waves-effect waves-light modal-trigger" href="#prof1">DR. JUAN DI CONSTANZO ZARAGOZA</a></td>
 						<td>Auditorio Raul Aguilar</td>
 					</tr>
 					<tr>
 						<td>10:00 - 11:30</td>
 						<td>Taller I</td>
-						<td>LIC. HERMILDA PATRICIA VÁZQUEZ DÍAZ </td>
+						<td><a class="waves-effect waves-light modal-trigger" href="#prof2">LIC. HERMILDA PATRICIA VÁZQUEZ DÍAZ</a></td>
 						<td>Sale Empresarial 2</td>
 					</tr>
 					<tr>
 						<td>10:00 - 11:30</td>
 						<td>Conferencia II</td>
-						<td>LIC. ARTURO DAVID ARGENTE VILLARREAL</td>
+						<td><a class="waves-effect waves-light modal-trigger" href="#prof3">LIC. ARTURO DAVID ARGENTE VILLARREAL</a></td>
 						<td>Lobby CCI</td>
 					</tr>
 					<tr>
@@ -284,13 +217,13 @@ print_r($mensaje);
 					<tr>
 						<td>14:40 - 15:40</td>
 						<td>Taller II</td>
-						<td>DR. PABLO AYALA ENRÌQUEZ</td>
+						<td><a class="waves-effect waves-light modal-trigger" href="#prof7">DR. PABLO AYALA ENRÌQUEZ</a></td>
 						<td>Auditorio Raúl Aguilar</td>
 					</tr>
 					<tr>
 						<td>15:40 - 17:40</td>
 						<td>Conferencia Final</td>
-						<td>ING. PAULINO BERNOT SILIS </td>
+						<td><a class="waves-effect waves-light modal-trigger" href="#prof4">ING. PAULINO BERNOT SILIS</a></td>
 						<td>Auditorio Raúl Aguilar</td>
 					</tr>
 				</tbody>
@@ -300,7 +233,8 @@ print_r($mensaje);
 			<h4 class='center white-text cyan' style='padding: 1em 0em 1em 0em'>LA FAMILIA Y SUS RETOS EN LA ERA DIGITAL</h4>
 			<div class='row' style='padding: 1em 0em 1em 0em'>
 				<div class='col s12 m4 l4 center'>
-					<h5>8:30 a.m.</h5>
+					<h5>8:30 a.m. - 18:30 p.m.</h5>
+					<p>Costo de boleto <b>$300</b></p>
 				</div>
 				<div class='col s12 m4 l4 center'>
 					<h5>Tecnológico de Monterrey Tampico</h5>
@@ -316,9 +250,9 @@ print_r($mensaje);
 				<br>
 				<a href='mailto:virginia.rdz@itesm.mx' class='white-text'>virginia.rdz@itesm.mx</a>
 				<br>
-				<a href='mailto:dalma.leon@hotmail.com' class='white-text'>dalma.leon@hotmail.com</a>
+				<a href='mailto:adriwm69@hotmail.com' class='white-text'>adriwm69@hotmail.com</a>
 				<br>
-				<a href='bcu.cristina@hotmail.com' class='white-text'>bcu.cristina@hotmail.com</a>
+				<a href='rosssalba@hotmail.com' class='white-text'>rosssalba@hotmail.com</a>
 				<br>
 				Tel: 229160 ext. 2806
 				</h5>
@@ -329,7 +263,7 @@ print_r($mensaje);
 			<div class='container'>
 				<div class='row'>
 					<div class="col s12">
-						<div class="card-panel blue darken-4">
+						<div class="card-panel">
 							<h1 class="center" style="margin-top:-25px;margin-bottom:0px">REGISTRO</h1>
 							<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc1XNRyqCVq8YD92WHfFqCL5OB8YrjYsmE6u7dYPVTOlSFs4A/viewform" width="100%" border="0" height="400px"></iframe>
 						</div>
