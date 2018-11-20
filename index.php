@@ -12,24 +12,24 @@ R::store($record);
 // print_r($record);
 $título = 'Registro a Congreso de Padres 2018';
 $mensaje = "<html>
-								<head>
-															<meta charset='utf-8'>
-															<meta name='viewport' content='width=device-width, initial-scale=1'>
-															<link rel='stylesheet' type='text/css' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css'>
-															<link rel='icon' href='https://pbs.twimg.com/profile_images/637400062243434496/vbLcnryf_400x400.png'>
-															<title>Congreso para Padres</title>
-									</head>
-								<body>
-														<div class='container'>
-																				<div class='row'>
-																											<div class='col m12 center'>
-																																	<h1>¡Hola {$record->name}!</h1>
-																																	<img src='https://res.cloudinary.com/itesm-tam/image/upload/v1515864337/congreso.jpg'>
-																																	<h3> Su registro ha sido completado con éxito, favor de presentar su boleto el día del evento</h3>
-																											</div>
-																				</div>
-														</div>
-								</body>
+									<head>
+																	<meta charset='utf-8'>
+																	<meta name='viewport' content='width=device-width, initial-scale=1'>
+																	<link rel='stylesheet' type='text/css' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css'>
+																	<link rel='icon' href='https://pbs.twimg.com/profile_images/637400062243434496/vbLcnryf_400x400.png'>
+																	<title>Congreso para Padres</title>
+										</head>
+									<body>
+																<div class='container'>
+																							<div class='row'>
+																															<div class='col m12 center'>
+																																						<h1>¡Hola {$record->name}!</h1>
+																																						<img src='https://res.cloudinary.com/itesm-tam/image/upload/v1515864337/congreso.jpg'>
+																																						<h3> Su registro ha sido completado con éxito, favor de presentar su boleto el día del evento</h3>
+																															</div>
+																							</div>
+																</div>
+									</body>
 </html>";
 print_r($mensaje);
 ?>
@@ -86,39 +86,9 @@ print_r($mensaje);
 		</div>
 		<div id="prof5" class="modal">
 			<div class="modal-content center">
-				<h4>Lic. Ana Paola Alcalá.</h4>
-				<p>Colaborador en STOOPEN EMA PARTNERS, México. Licenciada en mercadotecnia. Diplomado en comercio exterior. Mastering team management (coaching) Loreal, ITAM.</p>
-				<img src="" class="responsive-img">
-			</div>
-			<div class="modal-footer">
-				<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
-			</div>
-		</div>
-		<div id="prof6" class="modal">
-			<div class="modal-content center">
-				<h4>Lic. Gabriel Rubio.</h4>
-				<p>Conductor y editorialista en Televisa/Imagen Radio/MVS Radio/Grupo AS MILENIO. Presidente de la Asociación de padres de Familia de Cd. Madero Fundador Grupo Freedom.</p>
-				<img src="" class="responsive-img">
-			</div>
-			<div class="modal-footer">
-				<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
-			</div>
-		</div>
-		<div id="prof7" class="modal">
-			<div class="modal-content center">
-				<h4>Dr. Pablo Ayala Enriquez</h4>
-				<p>Director del Sentido Humano en el Tecnológico de Monterrey.</p>
-				<img src="https://scontent.fntr4-1.fna.fbcdn.net/v/t1.0-9/43590288_2007216066005977_7306804762903576576_n.png?_nc_cat=111&_nc_ht=scontent.fntr4-1.fna&oh=ac28ac91c1e7c033e74b05ee770e2d24&oe=5C818676" class="responsive-img">
-			</div>
-			<div class="modal-footer">
-				<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
-			</div>
-		</div>
-		<div id="prof8" class="modal">
-			<div class="modal-content center">
-				<h4>Ing. Ana Leticia Szymanski.</h4>
-				<p>Tutor 1er año en Tecnológico de Monterrey. Certificada en Inteligencia Emocional RULER, modelo del centro de IE de la universidad de Yale</p>
-				<img src="" class="responsive-img">
+				<h4>Lic. Elias Miranda.</h4>
+				<p>Coach de gimnasio y vida en Tecnólogico de Monterrey en Tampico. Entrenador certificado ante la SEP (coaching de entrenamiento y alimentación).</p>
+				<img src="https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/41656732_1795046097216127_309869263202549760_n.jpg?_nc_cat=107&_nc_ht=scontent-lax3-2.xx&oh=24e53aeda03d32f92ec56ed98e174f46&oe=5C6BF687" class="responsive-img">
 			</div>
 			<div class="modal-footer">
 				<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
@@ -127,7 +97,7 @@ print_r($mensaje);
 		<div class='navbar-fixed'>
 			<nav class='white'>
 				<div class='nav-wrapper'>
-					<a href='#' class='brand-logo button-collapse' data-activates='slide-out'><img src='https://pbs.twimg.com/profile_images/637400062243434496/vbLcnryf_400x400.png' class='z-depth-1' style='max-width:100px'><img src="https://res.cloudinary.com/itesm-tam/image/upload/v1540849310/logo.png" class="z-depth-1 white" style='max-width:100px'></a>
+					<a href='#' class='brand-logo button-collapse' data-activates='slide-out'><img src='https://pbs.twimg.com/profile_images/637400062243434496/vbLcnryf_400x400.png' class='z-depth-1 hide-on-small-and-down' style='max-width:100px'><img src="https://res.cloudinary.com/itesm-tam/image/upload/v1540849310/logo.png" class="z-depth-1 white" style='max-width:100px'></a>
 					<ul id='nav-mobile' class='right hide-on-med-and-down'>
 						<li><a href='#inf' class='blue-text'>Información</a></li>
 						<li><a href='#sch' class='blue-text'>Programa</a></li>
@@ -163,7 +133,7 @@ print_r($mensaje);
 		</section>
 		<section id='sch'>
 			<div class="col m-10">
-				<h5 class="center cyan-text" style='padding: 0em 0em 1em 0em'>Reforzar los valores familiares ante los desafíos tecnológicos en la Era Digital, proporcionando herramientas efectivas para construir canales de comunicación entre padres e hijos y su entorno.</h5>
+				<h5 class="center cyan-text" style='padding: 0em 0em 1em 0em'><b>Objetivo: </b>Reforzar los valores familiares ante los desafíos tecnológicos en la Era Digital, proporcionando herramientas efectivas para construir canales de comunicación entre padres e hijos y su entorno.</h5>
 			</div>
 			<h4 class='center'>Agenda General de Evento</h4>
 			<table style="text-transform:uppercase!important">
@@ -179,54 +149,54 @@ print_r($mensaje);
 					<tr>
 						<td>8:30 - 9:00</td>
 						<td>Registro</td>
-						<td>Cristina García</td>
+						<td>COMITÉ ORGANIZADOR</td>
 						<td>Domo CCI</td>
 					</tr>
 					<tr>
 						<td>9:00 - 9:20</td>
 						<td>Bienvenida</td>
-						<td>Lic. María Adriana Garza<br>Ing. Marco Vargas</td>
+						<td>Lic. María Adriana Garza Arroyo<br>Ing. Marco Edgar Vargas</td>
 						<td>Auditorio Raul Aguilar</td>
 					</tr>
 					<tr>
-						<td>9:15 - 10:00</td>
-						<td>Conferencia I</td>
+						<td>9:25 - 10:20</td>
+						<td>Educación para la era digital: El reto de los padres de hoy</td>
 						<td><a class="waves-effect waves-light modal-trigger" href="#prof1">DR. JUAN DI CONSTANZO ZARAGOZA</a></td>
 						<td>Auditorio Raul Aguilar</td>
 					</tr>
 					<tr>
-						<td>10:00 - 11:30</td>
-						<td>Taller I</td>
+						<td>10:20 - 12:00</td>
+						<td>Familia y Tecnología</td>
 						<td><a class="waves-effect waves-light modal-trigger" href="#prof2">LIC. HERMILDA PATRICIA VÁZQUEZ DÍAZ</a></td>
 						<td>Sale Empresarial 2</td>
 					</tr>
 					<tr>
-						<td>10:00 - 11:30</td>
-						<td>Conferencia II</td>
+						<td>12:00 - 1:30</td>
+						<td>La importancia de la familia en la educación</td>
 						<td><a class="waves-effect waves-light modal-trigger" href="#prof3">LIC. ARTURO DAVID ARGENTE VILLARREAL</a></td>
 						<td>Lobby CCI</td>
 					</tr>
 					<tr>
-						<td>13:00 - 14:30</td>
+						<td>13:30 - 15:00</td>
 						<td>Comida</td>
-						<td>Stands, Grupos</td>
-						<td>Explanada CCI</td>
+						<td>PEROLLES</td>
+						<td>Lobby CCI</td>
 					</tr>
 					<tr>
-						<td>14:30 - 14:40</td>
+						<td>15:00 - 15:10</td>
 						<td>Coach Dinámico</td>
-						<td>COACH ELÍAS MIRANDA</td>
+						<td><a <a class="waves-effect waves-light modal-trigger" href="#prof5">COACH ELÍAS MIRANDA</a></td>
 						<td>Auditorio Raúl Aguilar</td>
 					</tr>
 					<tr>
-						<td>14:40 - 15:40</td>
-						<td>Taller II</td>
+						<td>15:10 - 16:10</td>
+						<td>Barreras y activadores de la vida ética</td>
 						<td><a class="waves-effect waves-light modal-trigger" href="#prof7">DR. PABLO AYALA ENRÌQUEZ</a></td>
 						<td>Auditorio Raúl Aguilar</td>
 					</tr>
 					<tr>
-						<td>15:40 - 17:40</td>
-						<td>Conferencia Final</td>
+						<td>16:10 - 17:40</td>
+						<td>Una visión en familia</td>
 						<td><a class="waves-effect waves-light modal-trigger" href="#prof4">ING. PAULINO BERNOT SILIS</a></td>
 						<td>Auditorio Raúl Aguilar</td>
 					</tr>
@@ -252,7 +222,7 @@ print_r($mensaje);
 				<h5 class='left-align ' style='padding: 1em 0em 1em 1em'>
 				<b class='cyan-text'>Informes:</b>
 				<br>
-				<a href='mailto:virginia.rdz@itesm.mx' class='white-text'>virginia.rdz@itesm.mx</a>
+				<a href='mailto:virginia.rdz@tec.mx' class='white-text'>virginia.rdz@tec.mx</a>
 				<br>
 				<a href='mailto:adriwm69@hotmail.com' class='white-text'>adriwm69@hotmail.com</a>
 				<br>
@@ -275,6 +245,14 @@ print_r($mensaje);
 				</div>
 			</div>
 		</section>
+		<footer class="page-footer blue darken-4">
+			<div class="footer-copyright">
+				<div class="container">
+					© <?php echo date('Y') ?> Tecnológico de Monterrey
+					<a class="grey-text text-lighten-4 right" href="https://tec.mx/es/politicas-de-privacidad-del-tecnologico-de-monterrey">Políticas de Privacidad</a>
+				</div>
+			</div>
+		</footer>
 		<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
 		<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js'></script>
 		<script type='text/javascript'>
